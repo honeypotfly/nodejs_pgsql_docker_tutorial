@@ -13,7 +13,7 @@ RUN npm install
 # Copy files in working dir to container
 COPY . .
 
-# Open port 9090
+# Open port 8080
 EXPOSE 8080
 
 # Start node app
