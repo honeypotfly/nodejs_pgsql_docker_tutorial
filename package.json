@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/honeypotfly/nodejs_pgsql_docker_tutorial/issues"
   },
-  "homepage": "https://github.com/honeypotfly/nodejs_pgsql_docker_tutorial#readme"
+  "homepage": "https://github.com/honeypotfly/nodejs_pgsql_docker_tutorial#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
