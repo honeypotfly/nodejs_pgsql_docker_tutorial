@@ -26,6 +26,11 @@ app.get("/employees", async(req, res) => {
     res.send(JSON.stringify(results))
 });
 
-app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`);
-});
+(async () => {
+    await client.connect();
+
+    app.listen(port, () => {
+        console.log(`Example app listening at http://localhost:${port}`);
+    });
+})();
+
