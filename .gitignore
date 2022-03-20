@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Docker stuff
+docker-compose.yml
+
+# SQL stuff
+database-seed.sql
