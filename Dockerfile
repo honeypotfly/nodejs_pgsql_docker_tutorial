@@ -1,5 +1,5 @@
 # Base Image
-FROM node:lts-alpine
+FROM node:14-alpine3.12
 
 # Where we want to send our files
 WORKDIR /usr/src/app
